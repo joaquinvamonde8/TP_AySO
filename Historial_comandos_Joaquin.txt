@@ -1,0 +1,114 @@
+sudo su
+whoami
+echo $HOME
+ssh/keygen
+ssh-keygen
+cat $HOME/.ssh/*.pub
+cd
+pwd
+mkdir repogit
+ls
+cd repogit
+pwd
+lsblk
+cd /run/media/perita/VBox_GAs_7.2.4
+ls
+sudo ./VBoxLinuxAdditions.run
+sudo apt update
+sudo apt install bzip2
+sudo ./VBoxLinuxAdditions.run
+sudo apt install gcc make perl
+sudo apt install linux-headers-$(uname -r)
+sudo ./VBoxLinuxAdditions.run
+cat /var/log/vboxadd-setup.log
+which VBoxClient
+VBoxClient --clipboard
+cd ..
+cd..
+cd ..
+ls
+echo $HOME
+ls
+ll
+cd repogit
+pwd
+cd home
+ls
+cd perita
+pwd
+cd repogit
+pwd
+git clone git@github.com:joaquinvamonde8/TP_AySO.git
+sudo apt install git
+git --version
+git clone git@github.com:joaquinvamonde8/TP_AySO.git
+ls
+cd TP_AySO
+ls
+pwd
+ls -1
+cat /etc/os-release
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+man grep
+grep -i home_url /etc/os-release
+ls
+cd repogit
+ls
+cd TP?AySO
+ls
+pwd
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls
+cat datos_usuario.txt
+git status
+git add .
+git status
+git config --global user.name "joaquinvamonde8"
+git config --global user.email "joaquinvamonde8@gmail.com"
+git config --global user.name
+git config --global user.email
+pwd
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+git push
+cat /proc/cpuinfo
+grep -i 'model name' /proc/cpuinfo
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt
+git status
+git add datos_usuario.txt
+git status
+git commit -m "feat: Añadiendo información de CPU"
+git push
+cat <<EOF >> README.md
+
+
+
+
+
+
+cat <<EOF >> README.md
+
+
+
+
+
+
+
+cat <<EOF >> README.md
+Alumno: Joaquin
+División: 311
+Turno: Noche
+EOF
+
+cat README.md
+nano README.md
+cat README.md
+git status
+git add README.md
+git status
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+pwd
+history -a
